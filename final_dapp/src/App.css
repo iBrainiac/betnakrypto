@@ -1,0 +1,77 @@
+.App {
+  background-image: linear-gradient("#000000", "#151515");
+}
+
+.custom-nav {
+  display: flex;
+  width: 100%;
+}
+
+.custom-nav .custom-logo {
+  flex: 1;
+}
+
+.custom-nav .navs {
+  flex: 4;
+}
+
+.second-bar {
+  background-image: linear-gradient(to right, #252525, #000000);
+}
+
+.sidebar-color {
+  background-image: linear-gradient(to bottom, #020202, #151515);
+  width: 50px;
+}
+
+.main {
+  margin-left: 50px;
+}
+
+.wallpaper {
+  height: 300px;
+  background-size: cover;
+  position: relative;
+  background-position: top;
+}
+
+input {
+  color: #dddddd;
+}
+
+.overlay {
+  position: absolute;
+  height: 300px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+* {
+  font-weight: 300;
+}
+
+@media (max-width: 600px) {
+  .main {
+    margin-left: 0px;
+  }
+}
+
+.user-accordion-heading {
+  background-color: #101010;
+}
+
+.account-card-div {
+  background-image: linear-gradient(116deg, #020202, #060702, #2d2d10);
+}
+
+.view-transaction-button {
+  background-color: #3f410c;
+  color: #8d920d;
+}
+
+.sign-out-button {
+  background-color: #1b1b1b;
+}
